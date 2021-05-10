@@ -1,2 +1,0 @@
-MisqJavaConventionsPlugin.java
- MisqJavaConventionsPlugin
