@@ -1,0 +1,7 @@
+rootProject.name = 'module-playground'
+include 'list'
+include 'utilities'
+include 'cisq'
+include 'disq'
+include 'fisq'
+include 'gisq'

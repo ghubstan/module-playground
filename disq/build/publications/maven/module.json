@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.ghubstan",
+    "module": "disq",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ghubstan",
+          "module": "utilities",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "disq-0.0.1-SNAPSHOT.jar",
+          "url": "disq-0.0.1-SNAPSHOT.jar",
+          "size": 1837,
+          "sha512": "7621bb973647a38b58af5a468670eb344e44dfd24979671809d0f8cc77d6eb8b503efc2073949b4d636ac3a62dafbb942555d326cd0573955999c0d61f49358f",
+          "sha256": "ce29a2472b66963ef6d2a5b537e36ea582df9fcf323884a9903cd5ef4663e149",
+          "sha1": "b3c18c4d78f05b83f18f281b1418dbb3f906f141",
+          "md5": "c035ac0f4ca37cfd30100835980fca6b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.jitpack",
+          "module": "gradle-simple",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "com.github.ghubstan",
+          "module": "utilities",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "disq-0.0.1-SNAPSHOT.jar",
+          "url": "disq-0.0.1-SNAPSHOT.jar",
+          "size": 1837,
+          "sha512": "7621bb973647a38b58af5a468670eb344e44dfd24979671809d0f8cc77d6eb8b503efc2073949b4d636ac3a62dafbb942555d326cd0573955999c0d61f49358f",
+          "sha256": "ce29a2472b66963ef6d2a5b537e36ea582df9fcf323884a9903cd5ef4663e149",
+          "sha1": "b3c18c4d78f05b83f18f281b1418dbb3f906f141",
+          "md5": "c035ac0f4ca37cfd30100835980fca6b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "disq-0.0.1-SNAPSHOT-javadoc.jar",
+          "url": "disq-0.0.1-SNAPSHOT-javadoc.jar",
+          "size": 108422,
+          "sha512": "b8df185f02c528a400f5533d940428c9239b494c07e5c4f46ffc3282c3dc4a2707ccdeccca5e13a439ad80ad3d7ab7b70cf18b21e0f801631298f91fa3832f32",
+          "sha256": "fa86ef2080dd91c5bb359fb49d3370d2d7a59fa38a73a2d6f229d185a12bd668",
+          "sha1": "ef27619a5c24f117317866fb11d620d1a574e401",
+          "md5": "154343ac722d18f00d8dd3421822bd8d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "disq-0.0.1-SNAPSHOT-sources.jar",
+          "url": "disq-0.0.1-SNAPSHOT-sources.jar",
+          "size": 1332,
+          "sha512": "4a17cf65d23babbe64dbadd15c53df70184571b5a2ce63401f4057ec13abfe9917218ada50876bea6faa380d8c776fd63c92d613267ae5c6bdb04a2c820d948d",
+          "sha256": "12f6aef7f8213efa23277eeb56a1fd6441613179c683ab910bb4f8c224b3b95c",
+          "sha1": "ec81a630bc4f94f3f41b32ce3b5c0553038f6213",
+          "md5": "acd6ee41b49a0b0119aaa8f8d0e45353"
+        }
+      ]
+    }
+  ]
+}

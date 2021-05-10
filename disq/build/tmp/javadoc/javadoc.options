@@ -1,0 +1,11 @@
+--module-path '/home/hector/workarea/crypto/misq/ghubstan/published-misq-mocs/module-playground/disq/build/classes/java/main:/home/hector/workarea/crypto/misq/ghubstan/published-misq-mocs/module-playground/utilities/build/libs/utilities-0.0.1-SNAPSHOT.jar:/home/hector/workarea/crypto/misq/ghubstan/published-misq-mocs/module-playground/list/build/libs/list-0.0.1-SNAPSHOT.jar'
+-Xdoclint:none '-quiet'
+-classpath '/home/hector/.gradle/caches/modules-2/files-2.1/com.github.jitpack/gradle-simple/1.1/b7566d3f20a6323168e6ea0f7a10047744b11a68/gradle-simple-1.1.jar:/home/hector/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar'
+-d '/home/hector/workarea/crypto/misq/ghubstan/published-misq-mocs/module-playground/disq/build/docs/javadoc'
+-doctitle 'disq 0.0.1-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'disq 0.0.1-SNAPSHOT API'
+'/home/hector/workarea/crypto/misq/ghubstan/published-misq-mocs/module-playground/disq/src/main/java/module-info.java'
+'/home/hector/workarea/crypto/misq/ghubstan/published-misq-mocs/module-playground/disq/src/main/java/org/misq/disq/MessageUtils.java'
+'/home/hector/workarea/crypto/misq/ghubstan/published-misq-mocs/module-playground/disq/src/main/java/org/misq/disq/Main.java'

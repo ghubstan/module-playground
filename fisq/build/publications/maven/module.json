@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.ghubstan",
+    "module": "fisq",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ghubstan",
+          "module": "utilities",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fisq-0.0.1-SNAPSHOT.jar",
+          "url": "fisq-0.0.1-SNAPSHOT.jar",
+          "size": 1839,
+          "sha512": "d0f964076772e93de95c86dded2cd48896f7cba113349febaff4868dec74dd718af22419834ef4c84050abc2d0cdc0c7e339a797593eac209d14e13be9b4433a",
+          "sha256": "c5883b4b46772f416e81b95b19b8deeb3ce5c4b618a8eabe143271ac3abe8867",
+          "sha1": "1f4f04598cbf9a525eaf0240c25de27c56289154",
+          "md5": "d8dcb54efa857b887616e87bd15ccc2f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.jitpack",
+          "module": "gradle-simple",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "com.github.ghubstan",
+          "module": "utilities",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fisq-0.0.1-SNAPSHOT.jar",
+          "url": "fisq-0.0.1-SNAPSHOT.jar",
+          "size": 1839,
+          "sha512": "d0f964076772e93de95c86dded2cd48896f7cba113349febaff4868dec74dd718af22419834ef4c84050abc2d0cdc0c7e339a797593eac209d14e13be9b4433a",
+          "sha256": "c5883b4b46772f416e81b95b19b8deeb3ce5c4b618a8eabe143271ac3abe8867",
+          "sha1": "1f4f04598cbf9a525eaf0240c25de27c56289154",
+          "md5": "d8dcb54efa857b887616e87bd15ccc2f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fisq-0.0.1-SNAPSHOT-javadoc.jar",
+          "url": "fisq-0.0.1-SNAPSHOT-javadoc.jar",
+          "size": 108421,
+          "sha512": "f7c9db7ced1b2ad853b7ec64832ec1790fd2d352115424846b517438d88cd6257d717fdf7ecc56fa163fd4058d762c42a4098979bd066d9840eef9b8bf885573",
+          "sha256": "481cc5a329c085c1b000ac04324733d635e0a4240793df707f51adaa926cfbca",
+          "sha1": "5f1219cb3c312f7d8273b1f467b8c2f21ecee7c8",
+          "md5": "0def3ec97a33ebbd35ae4a5574e71abb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fisq-0.0.1-SNAPSHOT-sources.jar",
+          "url": "fisq-0.0.1-SNAPSHOT-sources.jar",
+          "size": 1332,
+          "sha512": "5e2bb4e031fb2d2c048d5341e0b4c2684040f89efbdac26c5827d9e007069dde90bc2c23861d1d90f1fc3e839580199073bf586a347bad7286553254c08c1273",
+          "sha256": "9ffc31e10ab06e634c85a14464c84ee554f9dea68bcb4402eb4d90a91f02d772",
+          "sha1": "341277d12373af9d53555f112fadaf36e3ab5c82",
+          "md5": "b829ae6db09b562b764ced9731364954"
+        }
+      ]
+    }
+  ]
+}

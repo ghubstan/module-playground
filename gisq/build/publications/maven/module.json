@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.ghubstan",
+    "module": "gisq",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ghubstan",
+          "module": "utilities",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gisq-0.0.1-SNAPSHOT.jar",
+          "url": "gisq-0.0.1-SNAPSHOT.jar",
+          "size": 1838,
+          "sha512": "ccb6f504ab93dae0081b4fa55dddb7c845c68e2134d9d0c294304f3c19cc6e9fc3b932b882cb2e9146f69f0b3ce89e11070395b855a0c1c5c8a376bc56e99cc7",
+          "sha256": "195443b243195807411401b46238ddb185b39abd89381f5db3727b8f72d41df3",
+          "sha1": "2204ee7666193affe68c7163cb1e4998ff93f795",
+          "md5": "7eecff1088de8e49568dfa5514d53ccd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.jitpack",
+          "module": "gradle-simple",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "com.github.ghubstan",
+          "module": "utilities",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gisq-0.0.1-SNAPSHOT.jar",
+          "url": "gisq-0.0.1-SNAPSHOT.jar",
+          "size": 1838,
+          "sha512": "ccb6f504ab93dae0081b4fa55dddb7c845c68e2134d9d0c294304f3c19cc6e9fc3b932b882cb2e9146f69f0b3ce89e11070395b855a0c1c5c8a376bc56e99cc7",
+          "sha256": "195443b243195807411401b46238ddb185b39abd89381f5db3727b8f72d41df3",
+          "sha1": "2204ee7666193affe68c7163cb1e4998ff93f795",
+          "md5": "7eecff1088de8e49568dfa5514d53ccd"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gisq-0.0.1-SNAPSHOT-javadoc.jar",
+          "url": "gisq-0.0.1-SNAPSHOT-javadoc.jar",
+          "size": 108422,
+          "sha512": "d9157e9b01afbe0f9804db7cb02f6258b9c45cbcdf4f6b75c0ae00b800ecb3fb913bc50d75ac114b57d5657e6a7af2fe5eb24f8e4b8774a7c9864eaff66d74fe",
+          "sha256": "08a6b56c822fd9580406298d8a7c536654a907a08b027d0afadf493e0d90aa56",
+          "sha1": "c640c2d2e1f85e977723613b016c0718877d9937",
+          "md5": "28179a4b3a16d3db93b8987dbe07ace7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gisq-0.0.1-SNAPSHOT-sources.jar",
+          "url": "gisq-0.0.1-SNAPSHOT-sources.jar",
+          "size": 1332,
+          "sha512": "7f54245af17744638b42fcddaa247749790a9c25e36eadf61b2b24be8f7ffe728afc4c84bf613d5e6e650af0287dc0d75b70559218798162bb6ff8e208839a16",
+          "sha256": "cf8d9d8880dac8c21c7445317cacdbeed233ddd257e7e1539d051c19102fdb5e",
+          "sha1": "8ca9577b08dd2aadfa64dd1f5d2a62414d84e962",
+          "md5": "52d14a06df94b3fb4252f9213e40ea01"
+        }
+      ]
+    }
+  ]
+}

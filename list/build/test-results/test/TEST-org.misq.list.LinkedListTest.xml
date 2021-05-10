@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.misq.list.LinkedListTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-10T18:13:43" hostname="berlioz" time="0.013">
+  <properties/>
+  <testcase name="testAdd()" classname="org.misq.list.LinkedListTest" time="0.009"/>
+  <testcase name="testRemoveMissing()" classname="org.misq.list.LinkedListTest" time="0.001"/>
+  <testcase name="testRemove()" classname="org.misq.list.LinkedListTest" time="0.001"/>
+  <testcase name="testConstructor()" classname="org.misq.list.LinkedListTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
