@@ -1,6 +1,0 @@
-org/misq/fisq/Main.java
- org.misq.fisq.Main
-module-info.java
- module-info
-org/misq/fisq/MessageUtils.java
- org.misq.fisq.MessageUtils

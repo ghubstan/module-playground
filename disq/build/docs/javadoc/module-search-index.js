@@ -1,1 +1,0 @@
-moduleSearchIndex = [{"l":"org.misq.disq"}];updateSearchResults();

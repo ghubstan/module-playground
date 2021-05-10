@@ -1,2 +1,0 @@
-org/misq/disq/MessageUtilsTest.java
- org.misq.disq.MessageUtilsTest

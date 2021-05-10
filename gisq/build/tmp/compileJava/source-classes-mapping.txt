@@ -1,6 +1,0 @@
-org/misq/gisq/MessageUtils.java
- org.misq.gisq.MessageUtils
-org/misq/gisq/Main.java
- org.misq.gisq.Main
-module-info.java
- module-info

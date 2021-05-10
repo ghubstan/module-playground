@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"org.misq.utilities","c":"StringUtils","l":"join(LinkedList)","u":"join(org.misq.list.LinkedList)"},{"p":"org.misq.utilities","c":"StringUtils","l":"split(String)","u":"split(java.lang.String)"},{"p":"org.misq.utilities","c":"StringUtils","l":"StringUtils()","u":"%3Cinit%3E()"}];updateSearchResults();

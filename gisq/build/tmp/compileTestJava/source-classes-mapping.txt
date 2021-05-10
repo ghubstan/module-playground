@@ -1,2 +1,0 @@
-org/misq/gisq/MessageUtilsTest.java
- org.misq.gisq.MessageUtilsTest

@@ -1,8 +1,0 @@
-org/misq/utilities/SplitUtils.java
- org.misq.utilities.SplitUtils
-org/misq/utilities/StringUtils.java
- org.misq.utilities.StringUtils
-org/misq/utilities/JoinUtils.java
- org.misq.utilities.JoinUtils
-module-info.java
- module-info

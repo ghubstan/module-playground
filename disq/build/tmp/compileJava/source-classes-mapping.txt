@@ -1,6 +1,0 @@
-org/misq/disq/MessageUtils.java
- org.misq.disq.MessageUtils
-org/misq/disq/Main.java
- org.misq.disq.Main
-module-info.java
- module-info

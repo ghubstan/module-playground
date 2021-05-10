@@ -1,2 +1,0 @@
-org/misq/fisq/MessageUtilsTest.java
- org.misq.fisq.MessageUtilsTest
