@@ -30,7 +30,7 @@ publishing {
             url = uri("https://maven.pkg.github.com/ghubstan/fisq")
             credentials {
                 username = "ghubstan"
-                password =  "tkn"
+                password =  System.getProperty("ghubtoken")
             }
         }
     }

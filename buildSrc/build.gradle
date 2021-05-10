@@ -18,3 +18,4 @@ plugins {
     id 'groovy-gradle-plugin'
 }
 
+// println 'ghubtoken=' + System.getProperty("ghubtoken")

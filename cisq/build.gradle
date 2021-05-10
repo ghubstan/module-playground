@@ -24,13 +24,18 @@ publishing {
     }
     // Publish to jitpack:         $ ./gradlew clean build assemble publish
     // Install in local mvn repo:  $ ./gradlew clean build publishToMavenLocal
+    //
+    // To import individual module-playground modules:
+    //    implementation 'com.github.ghubstan.module-playground:cisq:<commit>'
+    //    implementation 'com.github.ghubstan.module-playground:fisq:<commit>'
+    // This does import the transitive dependencies too.  Nice!
     repositories {
         maven {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/ghubstan/" + project.getName())
             credentials {
                 username = "ghubstan"
-                password =  "tkn"
+                password = System.getProperty("ghubtoken")
             }
         }
     }
